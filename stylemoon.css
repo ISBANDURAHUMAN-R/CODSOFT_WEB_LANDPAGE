@@ -77,18 +77,19 @@ body{
 }
 
 /* Moon */
+/* Moon */
 .moon{
-    position:absolute;
-    right:-100px;
-    top:50%;
-    transform:translateY(-50%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .moon img{
-    width:700px;
-    max-width:none;
-    animation:floatMoon 6s ease-in-out infinite;
+    width:400px;
+    max-width:100%;
+    height:auto;
 }
+
 
 /* Animation */
 @keyframes floatMoon{
