@@ -88,56 +88,5 @@ body{
     width:400px;
     max-width:100%;
     height:auto;
-}
 
-
-/* Animation */
-@keyframes floatMoon{
-    0%,100%{
-        transform:translateY(0);
-    }
-    50%{
-        transform:translateY(-20px);
-    }
-}
-
-/* Responsive */
-@media(max-width:992px){
-
-    .hero{
-        flex-direction:column;
-        justify-content:center;
-        text-align:center;
-    }
-
-    .hero-content h1{
-        font-size:3.5rem;
-    }
-
-    .moon{
-        position:relative;
-        right:0;
-        top:0;
-        transform:none;
-        margin-top:40px;
-    }
-
-    .moon img{
-        width:400px;
-    }
-}
-
-@media(max-width:576px){
-
-    .hero-content h1{
-        font-size:2.5rem;
-    }
-
-    .hero-content p{
-        font-size:1rem;
-    }
-
-    .moon img{
-        width:280px;
-    }
 }
